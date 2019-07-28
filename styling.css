@@ -1,0 +1,983 @@
+#imagehome{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/backimage.jpg');
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    
+    
+}
+
+.btn-secondary {
+  color: #fff !important; }
+
+img {
+  width: 100%; }
+
+.logo {
+  width: 120px; }
+
+.navbar {
+  opacity: 0.9;
+  
+
+}
+
+.social a {
+  margin-right: 0.4rem; }
+.navbar navbar-custom bg-primary sticky-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+#navbarnaya{
+    
+    margin-left: 40px;
+}
+#logo{
+    
+    
+    text-align: center;
+    width: 100%;
+    height:100px;
+}
+
+#logoimg{
+    
+    width:100px;
+    height: auto;;
+}
+#sitename{
+    
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+
+#name{
+    
+    color: white;
+    
+    font-family: sans-serif;
+    margin-top: 0px
+    
+}
+
+#navbarhome{
+    
+    margin-left: 0px;
+    margin-top: 2vw;
+    height: auto;
+    width: 100%;
+  
+}
+
+
+
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #17B890;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+ul{
+    
+    list-style-type: none;
+    
+    
+}
+
+li a{
+    
+ 
+    color: white;
+    
+   
+ 
+}
+
+li a:hover{
+    
+    color:#17B890;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    
+ }
+
+
+
+.dropdown-menu{
+    
+    
+    background-color: #f0c808;
+   
+    
+}
+
+
+
+.dropdown-menu li a{
+    
+   color: white;
+    transition: all 0.5s ease 0s;
+    
+}
+
+#aboutsection{
+    
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+    color: white;
+    margin-top: 10vw;
+    margin-bottom: :3vw;
+    
+}
+
+#aboutsection a{
+    
+    color :#17B890;
+    text-decoration: none;
+}
+
+#aboutsection a:hover{
+    
+    text-decoration-line: underline;
+}
+
+#aboutcontact{
+    
+    width: 100%;
+    overflow:visible;
+    text-align: center;
+    padding-bottom: 0px;
+    height:auto;
+    position: fixed;
+   
+}
+
+#aboutcontact li {
+    
+    display: inline;
+    
+}
+
+#newnavbar{
+    
+    background-color: #f0c808;
+    
+}
+
+#newnavbar li a{
+    
+    color: #00120b;
+    font-family:Signika Negative;
+    padding-right: 0px;
+}
+#brandname{
+    font-family:Signika Negative;
+    font-size: 40px;
+    color: #00120b;
+    padding-top: 8px
+}
+
+.navbar-toggler{
+    
+    border-color: #086788;
+}
+ 
+.navbar-toggler-icon{
+    
+    
+   
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8,103,136)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#copyright
+{
+    
+    width:100%;
+    height:30px;
+    color:black;
+    text-align: center;
+    background-color:white;
+    margin-top: 0px;
+    line-height: 2;
+
+    
+}
+
+#copyright p{
+    
+    
+    font-size: 18px;
+    
+}
+#copyright a{
+    color: black;
+}
+#copyright a:hover{
+    
+    color:black;
+}
+
+#top-bar{
+    
+    height: 50px;
+    width:auto;
+    background-color:white;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+
+.toparea{
+    
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.social a{
+    
+    padding-right: 10px;
+}
+
+
+#mynavBar{
+    
+    background-color: transparent;
+    height: 110px;
+    margin-top: 0px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+}
+
+#namesite{
+    
+    font-size: 3.5vw;
+    line-height: 1.6;
+    color: white;
+}
+
+.navbar-toggle{
+    
+    background-color: black;
+}
+
+.icon-bar{
+    
+    background-color: blue;
+}
+
+#navbarCollapse ul li{
+    
+    margin-bottom: 0px;
+}
+
+#bannerimage{
+    
+    height: 28vw;
+    width:100%;
+    margin-top: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/banner.jpg') ;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+   
+    
+  
+}
+
+#para{
+    
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: Kalam;
+}
+
+
+#para{
+     
+    padding-top: 10vw;
+    font-size: 5vw;
+    
+}
+#aboutcontactpage{
+    
+    height: 50px;
+    width: 100%;
+    line-height: 1.8;
+}
+.about2{
+    
+    background-color: #f0c808;
+    padding-bottom: 0px;
+    text-align: center;
+   
+    
+    
+}
+.phoneimage{
+    padding-right: 10px;
+}
+
+#webretocontent h1,h2,h3,h4,h5,h6{
+    
+    font-family: Signika Negative !important;
+}
+
+.about2 li a{
+    
+    color: #00120b;
+}
+
+
+#webretocontent{
+    
+    height: auto;
+    width:auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+#webretocontent p{
+    
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+#webretocontent li{
+    
+    font-size: 20px;
+}
+#webretocontent ul{
+    
+    list-style-type:circle;
+}
+
+.about2 li {
+    
+    display: inline;
+    padding-right: 50px;
+    
+}
+.about2 li a{
+    
+    font-size: 20px;
+   
+} 
+
+
+
+.contactform{
+    
+    color: black;
+    border:1px solid #283E60;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+
+select{
+    
+    width: 300px;
+}
+
+ul li{
+    
+    padding-left: 0px;
+    
+}
+
+webretocontent1{
+    
+  margin-left: 50px;
+    
+}
+
+@media screen and (min-width: 567px)
+{
+#logo{
+    
+    
+    text-align: center;
+    margin-top : 250px;
+    margin-left: 0px;
+   
+    
+}
+    
+
+.navbar-nav li a{
+    
+   font-size: 1.3vw
+  
+}
+
+   
+    
+    #aboutsection{
+        
+        margin-top: 10vw;
+    }
+    
+
+}
+
+    
+
+
+
+
+@media screen and (min-width: 767px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 280px;
+    margin-left: 0px;
+        
+   
+    
+}
+   
+
+.navbar-nav li a{
+    
+   font-size: 1.3vw
+  
+}
+    
+   
+} 
+@media screen and (min-width: 992px) {
+    
+    
+     #logo{
+    
+    
+    text-align: center;
+    margin-top : 280px;
+    margin-left: 0px;
+   
+    
+}
+    #aboutsection{
+        
+        margin-top: 100px;
+    }
+    
+  
+    
+   
+} 
+
+@media screen and (min-width: 1024px) {
+
+ #logo{
+    
+    
+    text-align: center;
+    margin-top : 200px;
+    margin-left: 0px;
+   
+    
+}
+     #name{
+        font-size: 35px;
+    }
+     
+    .custom-navbar{
+        
+        float: left;
+        padding-left: 0px;
+        margin-left: 30vw;
+    } 
+     #navbarhome{
+        
+        width: 100%;
+        margin-top: 60px;
+          
+    }
+   
+    #navbarhome li {
+        
+        padding-right: 20px;
+       
+    }
+    #navbarhome li a{
+        
+        font-size: 25px;
+    }
+    
+    
+    
+    
+     #aboutcontact ul{
+        
+        margin-top: 140px;
+    }
+    #aboutcontact li{
+        
+        display:inline;
+        padding-right: 20px
+       
+    }
+   
+    
+    #aboutcontact li a{
+        
+        font-size: 17px;
+    }
+    #aboutsection{
+        
+        margin-top: 200px;
+    }
+ 
+    #footer{
+        
+        margin-top: 5px;
+    }
+    
+      
+    
+    
+} 
+
+.navbar-nav li a{
+    
+   font-size: 1.3vw
+  
+}
+    
+ .fontt{
+    
+    font-size: 1.1vw;
+}
+    
+    .nav {
+        
+        margin-left: 8vw;
+    }
+    
+    .nav li{
+        
+        padding-right: 2vw;
+        padding-top: 1.5vw;
+    }
+    
+    #aboutsection{
+        
+        margin-top: 250px;
+    }
+    .about2 li {
+    
+    display: inline;
+    padding-right: 50px;
+    
+}
+.about2 li a{
+    
+    font-size: 20px;
+} 
+    
+} 
+
+
+@media screen and (min-width: 1200px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 230px;
+    margin-left: 0px;
+   
+    
+}
+    
+
+
+.navbar-nav li a{
+    
+   font-size: 1.3vw
+  
+}
+    
+    #aboutsection{
+        
+        margin-top: 10vw;
+    }
+   
+    
+  
+} 
+
+@media screen and (min-width: 1900px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 180px;
+    margin-left: 0px;
+   
+    
+}
+    #name{
+        font-size: 75px;
+    }
+     
+    .custom-navbar{
+        
+       
+        padding-left: 0px;
+        margin-left: 25vw;
+    } 
+     #navbarhome{
+        
+        width: 100%;
+        margin-top: 90px;
+          
+    }
+   
+    #navbarhome li {
+        
+        padding-right: 50px;
+       
+    }
+    #navbarhome li a{
+        
+        font-size: 30px;
+    }
+    
+    
+    
+    
+     #aboutcontact ul{
+        
+        margin-top: 90px;
+    }
+    #aboutcontact li{
+        
+        display:inline;
+        padding-right: 20px
+       
+    }
+   
+    
+    #aboutcontact li a{
+        
+        font-size: 24px;
+    }
+    #aboutsection{
+        
+        margin-top: 250px;
+    }
+    
+    #aboutsection p{
+        
+       font-size: 20px;
+    }
+ 
+    #footer{
+        
+        margin-top: 5px;
+    }
+    #footer p{
+        
+        font-size: 20px;
+        line-height: 2.5
+    }
+    
+    .about2 li {
+    
+    display: inline;
+    padding-right: 50px !important;
+    
+}
+.about2 li a{
+    
+    font-size: 20px !important;
+} 
+    
+    
+} 
+    
+   
+
+
+@media screen and (max-width: 1023px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 18vw;
+    margin-left: 0px;
+   
+    
+}
+   
+ 
+
+    #aboutsection{
+        
+        margin-top: 10vw;
+    }
+     #newnavbar{
+    
+    margin-top: 3.2rem;
+}
+    
+} 
+
+@media screen and (max-width: 992px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 200px;
+    margin-left: 0px;
+   
+    
+}
+     #name{
+        font-size: 35px;
+    }
+     
+    .custom-navbar{
+        
+        float: left;
+        padding-left: 0px;
+        margin-left: 16vw;
+    }
+      #navbarhome{
+        
+        width: 100%;
+        margin-top: 60px;
+          
+    }
+   
+    #navbarhome li {
+        
+        padding-right: 16px;
+        display: block;
+    }
+    #navbarhome li a{
+        
+        font-size: 20px;
+    }
+    
+    .navbar-nav li{
+        
+        display: block;
+    }
+    
+    
+    
+     #aboutcontact ul{
+        
+        margin-top: 90px;
+    }
+    #aboutcontact li{
+        
+        display:block;
+        padding-bottom: 10px
+       
+    }
+   
+    
+    #aboutcontact li a{
+        
+        font-size: 15px;
+    }
+    #aboutsection{
+        
+        margin-top: 200px;
+    }
+ 
+    #footer{
+        
+        margin-top: 5px;
+    }
+    .about2 li {
+    
+    display: inline;
+    padding-right: 50px;
+    
+}
+.about2 li a{
+    
+    font-size: 20px;
+} 
+    
+    
+} 
+
+@media screen and (max-width: 767px) {
+    
+    #logo{
+    
+    
+    text-align: center;
+    margin-top : 100px;
+    
+    margin-left:0px;
+   
+    
+}
+    
+    #navbarhome{
+        
+        margin-left: 40px;
+        margin-top: 65px;
+    }
+    
+    #navbarhome li{
+        
+        padding-bottom: 15px;
+        
+    }
+    .custom-navbar{
+        
+        
+        margin-left: 28vw;
+    }
+
+    
+   
+       .navbar ul li a{
+        
+        font-size: 18px;
+    }
+   
+    
+    .dropdown-menu li a{
+        
+        
+        font-size :10px;
+    }
+    
+    .dropdown-menu li{
+        
+        margin-bottom: 0px !important;
+    }
+    
+    #name{
+        font-size: 35px;
+    }
+    
+    #aboutcontact ul{
+        
+        margin-top: 20px;
+    }
+    #aboutcontact li{
+        
+        display:block;
+        padding-bottom: 10px;
+    }
+    #aboutcontact li a{
+        font-size:15px;
+       
+        
+    }
+    
+    .homenav li a {
+        
+        font-size: 15px;
+    }
+    
+    .navbarhome li{
+        
+        display: block;
+    }
+    #sitename{
+        
+        margin-top: 30px;
+    }
+    .fontt{
+    
+    font-size: 3vw;
+}
+    #aboutsection{
+        
+        margin-top: 250px;
+    }
+  #aboutcontact{
+        
+        margin-top: 120px;
+    } 
+     #top-bar {
+    text-align: center;
+    
+    }
+    
+    #top-bar .social {
+      text-align: center !important; } }
+
+
+#aboutcontact2 li{
+    
+    padding-right: 5.5vw;
+    line-height: 2.3;
+}
+#aboutcontact2 li a{
+    font-size: 1.4vw;
+    font-family: inherit;
+    
+}
+     
+    
+
+
+
+} 
+
+
+@media screen and (max-width: 567px) {
+    
+
+    
+    #aboutsection{
+        
+        margin-top: 0vw;
+    }
+    
+} 
+
+ 
+
+
+
+
+
+
+
+
