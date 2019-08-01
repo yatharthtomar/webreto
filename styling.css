@@ -1,11 +1,59 @@
 #imagehome{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/backimage.jpg');
+  /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/backimage.jpg');
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
+    background-position: center;*/
+    
+    /*background-image: linear-gradient( #f0c808, white);*/
+    
+    background-color: #f0c808;
     
     
+}
+
+#containers{
+    
+    height: 100%;
+    width: 100%;
+}
+#centeralign{
+    
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#webretologo{
+   
+    margin-left: auto;
+    margin-right: auto;
+
+   
+  
+}
+#imageres{
+    
+    width: 120px;
+    height: auto;
+}
+
+#websitename{
+    
+    height: auto;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+        
+}
+
+#websitename p{
+    
+    margin-top: 4vh;
+    font-size: 60px;
+    font-family: Signika Negative;
     
 }
 
@@ -34,16 +82,13 @@ img {
 }
 
 
-#navbarnaya{
-    
-    margin-left: 40px;
-}
+
 #logo{
     
     
     text-align: center;
     width: 100%;
-    height:100px;
+    height:50px;
 }
 
 #logoimg{
@@ -53,21 +98,14 @@ img {
 }
 #sitename{
     
+    height: 140px;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
+   
     
 }
 
 
-
-#name{
-    
-    color: white;
-    
-    font-family: sans-serif;
-    margin-top: 0px
-    
-}
 
 #navbarhome{
     
@@ -109,18 +147,23 @@ li a{
  
 }
 
-li a:hover{
-    
-    color:#17B890;
-    text-decoration: none;
 
-}
 
-.dropdown:hover .dropdown-menu {
+/*.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
     
- }
+ }*/
+
+
+
+
+.container{
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -128,6 +171,8 @@ li a:hover{
     
     
     background-color: #f0c808;
+    
+    
    
     
 }
@@ -144,18 +189,10 @@ li a:hover{
 #aboutsection{
     
     width: 100%;
-    height: 5vw;
+    height: 80px;
     text-align: center;
-    color: white;
-    margin-top: 10vw;
-    margin-bottom: :3vw;
     
-}
-
-#aboutsection a{
     
-    color :#17B890;
-    text-decoration: none;
 }
 
 #aboutsection a:hover{
@@ -166,7 +203,6 @@ li a:hover{
 #aboutcontact{
     
     width: 100%;
-    overflow:visible;
     text-align: center;
     padding-bottom: 0px;
     height:auto;
@@ -174,6 +210,15 @@ li a:hover{
    
 }
 
+
+.navlist{
+    text-align: center;
+}
+.navlist li{
+    
+    display: inline;
+    
+}
 #aboutcontact li {
     
     display: inline;
@@ -182,7 +227,11 @@ li a:hover{
 
 #newnavbar{
     
-    background-color: #f0c808;
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+
     
 }
 
@@ -190,7 +239,8 @@ li a:hover{
     
     color: #00120b;
     font-family:Signika Negative;
-    padding-right: 0px;
+    padding-right: 2vw;
+    font-size: 22px;
 }
 #brandname{
     font-family:Signika Negative;
@@ -198,10 +248,85 @@ li a:hover{
     color: #00120b;
     padding-top: 8px
 }
+#nanutop{
+    
+    padding-top: 3vh;
+}
+#aboutsection3{
+    
+    height:50px;
+    width: 100%;
+    margin-top: 1vh;
+    
+}
+
+#aboutsection3 p{
+    
+    font-size: 22px;
+    font-family:Signika Negative;
+}
+
+#aboutcontactpage5{
+    
+    height: 40px;
+    width: 100%;
+    margin-top: 110px;
+    
+}
+
+#aboutcontactpage5 li{
+    
+   display: inline;
+}
+
+#aboutcontactpage5 li a{
+    
+   font-size: 20px;
+   padding-right: 2vw;
+font-family: Signika Negative;
+    color: #00120b;
+   
+}
+#aboutcontactpage5 li a:hover{
+    
+  text-decoration: none;
+   
+}
+
+#copyright1{
+    
+    height: 20px;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 0px;
+}
+
+#copyright1 p{
+    
+    font-size: 18px;
+    font-family: Signika Negative;
+    padding-top: 8px;
+    
+}
+#newnavbar1{
+        
+        background: #f0c808;
+       opacity: 1;
+    }
+#newnavbar1 ul{
+    
+    margin-left: 25px;
+}
+     #newnavbar1 li a{
+        
+        color: #00120b;
+         font-family: Signika Negative;
+    }
 
 .navbar-toggler{
     
     border-color: #086788;
+    
 }
  
 .navbar-toggler-icon{
@@ -329,9 +454,9 @@ li a:hover{
 }
 #aboutcontactpage{
     
-    height: 50px;
+    height: 45px;
     width: 100%;
-    line-height: 1.8;
+    line-height: 2.5;
 }
 .about2{
     
@@ -387,9 +512,16 @@ li a:hover{
 }
 .about2 li a{
     
-    font-size: 20px;
+    font-size: 25px;
    
 } 
+
+#aboutcontact2 li a{
+    font-size:20px !important;
+    font-family: Signika Negative;
+    margin-top: 10px;
+    
+}
 
 
 
@@ -418,6 +550,20 @@ webretocontent1{
   margin-left: 50px;
     
 }
+
+#footerimage{
+    
+    height: 15vw;
+    width: 100%;
+    text-align: center;
+   background-image:url('images/footer_smallNew.png');
+     background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+}
+
+
 
 @media screen and (min-width: 567px)
 {
@@ -472,7 +618,7 @@ webretocontent1{
    font-size: 1.3vw
   
 }
-    
+  
    
 } 
 @media screen and (min-width: 992px) {
@@ -493,7 +639,7 @@ webretocontent1{
     }
     
   
-    
+  
    
 } 
 
@@ -508,9 +654,7 @@ webretocontent1{
    
     
 }
-     #name{
-        font-size: 35px;
-    }
+     
      
     .custom-navbar{
         
@@ -564,9 +708,6 @@ webretocontent1{
         margin-top: 5px;
     }
     
-      
-    
-    
 } 
 
 .navbar-nav li a{
@@ -605,7 +746,7 @@ webretocontent1{
     
     font-size: 20px;
 } 
-    
+   
 } 
 
 
@@ -634,7 +775,7 @@ webretocontent1{
         margin-top: 10vw;
     }
    
-    
+   
   
 } 
 
@@ -718,15 +859,10 @@ webretocontent1{
     .about2 li {
     
     display: inline;
-    padding-right: 50px !important;
+    padding-right: 50px;
     
 }
-.about2 li a{
-    
-    font-size: 20px !important;
-} 
-    
-    
+
 } 
     
    
@@ -750,10 +886,7 @@ webretocontent1{
         
         margin-top: 10vw;
     }
-     #newnavbar{
-    
-    margin-top: 3.2rem;
-}
+  
     
 } 
 
@@ -833,11 +966,29 @@ webretocontent1{
     padding-right: 50px;
     
 }
-.about2 li a{
+   
+.navlist li{
     
-    font-size: 20px;
-} 
+    display: block;
     
+    
+}
+     #nanutop{
+        
+        padding-top: 0vh;
+    } 
+     #aboutsection3{
+    
+   
+    margin-top: 60px;
+    
+}
+     #aboutsection3 p{
+    
+   
+    font-size: 14px;
+    
+}
     
 } 
 
@@ -879,16 +1030,7 @@ webretocontent1{
     }
    
     
-    .dropdown-menu li a{
-        
-        
-        font-size :10px;
-    }
-    
-    .dropdown-menu li{
-        
-        margin-bottom: 0px !important;
-    }
+   
     
     #name{
         font-size: 35px;
@@ -940,25 +1082,72 @@ webretocontent1{
     }
     
     #top-bar .social {
-      text-align: center !important; } }
+      text-align: center !important; } 
 
 
 #aboutcontact2 li{
     
-    padding-right: 5.5vw;
-    line-height: 2.3;
+    padding-right: 3.5vw;
+    line-height: 2.8;
+    
 }
 #aboutcontact2 li a{
-    font-size: 1.4vw;
-    font-family: inherit;
+    font-family: Signika Negative;
+    font-size:15px !important;
+    
+
+}
+.navlist li{
+    
+   margin-bottom: 0px;
+    padding-bottom: 0px;
     
 }
-     
+    #nanutop{
+        
+        padding-top: 0vh;
+    }
+    #aboutsection3{
     
+   
+    margin-top: 60px;
+    
+}
+     #aboutsection3 p{
+    
+   
+    font-size: 14px;
+    
+}
+    #aboutcontactpage5 {
+        
+        margin-top: 25px;
+    }
+    #aboutcontactpage5 li{
+    
+   display: block;
+}
+     #aboutcontactpage5 li a{
+    
+    font-size: 15px;
+    
+}
 
-
-
-} 
+    
+    #copyright1{
+        
+        margin-top: 60px;
+    }
+    #copyright1 p{
+        
+        font-size: 14px
+    }
+    
+    #newnavbar1{
+        
+        margin-top: 40px;
+    }
+}
 
 
 @media screen and (max-width: 567px) {
@@ -969,7 +1158,9 @@ webretocontent1{
         
         margin-top: 0vw;
     }
-    
+    #aboutcontact2 li a{
+    font-size:25px;
+    }
 } 
 
  

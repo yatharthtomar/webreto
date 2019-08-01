@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +57,7 @@
  
 <!-- Navbar -->
 
-     <nav class="navbar navbar-expand-lg sticky-top" id ="newnavbar">
+     <nav class="navbar navbar-expand-lg sticky-top" id ="newnavbar1">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="images/FinalLogoWebReto.png" class="logo" alt="">
@@ -127,84 +128,77 @@
         <div class="row">
         <div class="col-sm-12 contactform">
            <h1>Contact Us</h1>
-            <?php
+          <?php
 
-          $name = $_POST["name"];
-         $email = $_POST["email"];
-         $message = $_POST["message"];
-        $services = $_POST["servicesdata[]"];
+//Get user input
+$name = $_POST["name"];
+$email = $_POST["email"];
+$services = $_POST["servicesdata[]"];
+$message = $_POST["message"];
 
-         $missingName = '<p><strong>Please enter your name!</strong></p>'; 
-         $missingEmail = '<p><strong>Please enter your email address!</strong></p>'; 
-       $invalidEmail = '<p><strong>Please enter a valid email address!</strong></p>'; 
-        $missingMessage = '<p><strong>Please enter a message!</strong></p>'; 
-             if($_POST["submit"]){
-          
-              if(!$name]){
-                 
-              $errors .= $missingName;
-             }else{
-                 $name = filter_var($name,FILTER_SANITIZE_STRING);
-              }
-              if(!$email]){
-                 
-              $errors .= $missingEmail;
-             }else{
-                 $email = filter_var($email,FILTER_SANITIZE_EMAIL);
-                if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
-
-                $errors .= $invalidEmail;
-             }
-              }
-
-              if(!$services]){
-                 
-                 $services = '<p> No Services Selected</p>';
-             }
-             if(!$message){
-
-              $errors .= $missingMessage;
-            } else{
-
-               $message = filter_var(FILTER_SANITIIZE_STRING);
-             } 
-
-            if($errors){
-$resultMessage = '<div class="alert alert-danger>' . $errors . '</div>'
-  
-               }else{
-                $to = "yatharth.tomar91@gmail.com";
-                $subject= "Contact";
-                $message= "<p> Name : $name. </p>"
-                   "<p> Email : $email. </p>"
-                  "<p> Services Required : $services. </p>";
-                  "<p> Message : $message. </p>";
-                $headers = "Content-type :text/html";
-
-               if(mail($to,$subject,$message,$headers)){
-                   
-                   $resultMessage = '<div class="alert alert-success"> Thanks for your message, We will get back to you soon</div>';
-               }else{
-                $resultMessage = '<div class="alert alert-danger"> Unable to send email, Please try again.</div>';
+//error messages
+$missingName = '<p><strong>Please enter your name!</strong></p>'; 
+$missingEmail = '<p><strong>Please enter your email address!</strong></p>'; 
+$invalidEmail = '<p><strong>Please enter a valid email address!</strong></p>'; 
+$missingMessage = '<p><strong>Please enter a message!</strong></p>'; 
+$errors;
+//if the user has submitted the form
+if($_POST["submit"]){
+    //check for errors
+    if(!$name){
+        $errors .= $missingName;  
+    }else{
+        $name = filter_var($name,FILTER_SANITIZE_STRING);   
+    }
+    if(!$email){
+        $errors .= $missingEmail;   
+    }else{
+        $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+        if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
+            $errors .=$invalidEmail;   
+        }
+		
+	
+    }
+    if(!$message){
+        $errors .= $missingMessage;
+    }else{
+        $message = filter_var($message, FILTER_SANITIZE_STRING);   
+    }
+ 
+        //if there are any errors
+    if($errors){
+        //print error message
+        $resultMessage = '<div class="alert alert-danger">' . $errors .'</div>';   
+    }else{
+        $to = "yatharth.tomar91@gmail.com";
+        $subject = "Contact";
+        $message = "
+        <p>Name: $name.</p>
+        <p>Email: $email.</p>
+		<p> Services Required : $services. </p>
+        <p>Message:</p>
+        <p><strong>$message</strong></p>"; 
+        $headers = "Content-type: text/html";
+        if(mail($to, $subject, $message, $headers)){
+//            $resultMessage = '<div class="alert alert-success">Thanks for your message. We will get back to you as soon as possible!</div>';  
+           
+        }else{
+            $resultMessage = '<div class="alert alert-warning">Unable to send Email. Please try again later!</div>';  
+        }
+    }
+    echo $resultMessage;
 }
-               }
-
-
-
-          echo $resultMessage;
-            }
-
-
-            ?>
-            <form action="contact.html" method="post" id=framework_form>
+?>
+            <form action="contact.php#framework_form" method="post" id=framework_form>
              <div class="form-group">
                  <label for ="name1"> Name:</label>
-             <input type="text" name="name" id="name1" placeholder="Name" class="form-control" value="<?php echo $_POST["name"];?>">
+             <input type="text" name="name" id="name1" placeholder="Name" class="form-control">
                 
             </div>
                   <div class="form-group">
                  <label for ="email"> Email:</label>
-             <input type="text" name="email" id="email" placeholder="Email" class="form-control" value="<?php echo $_POST["email"];?>">
+             <input type="text" name="email" id="email" placeholder="Email" class="form-control">
                 
             </div>
                 
@@ -251,7 +245,7 @@ $resultMessage = '<div class="alert alert-danger>' . $errors . '</div>'
                  <div class="form-group">
                  <label for ="message"> Message:</label>
                      <textarea name="message" id="message" class="form-control" rows="5">
-                     <?php echo $_POST["message"];?></textarea>
+                     </textarea>
                 
             </div>
                 
@@ -266,13 +260,16 @@ $resultMessage = '<div class="alert alert-danger>' . $errors . '</div>'
     
     </div>
     
+    <div id="footerimage">
+     
     
+    </div>
     <div id = "aboutcontactpage" class="about2">
        
  
   <ul id="aboutcontact2">
          
-         <li><a id = "contact1" href="contact.html">Contact</a></li>
+         <li><a id = "contact1" href="contact.php">Contact</a></li>
          <li><a id = "Disclaimer1" href="disclaimer.html">Disclaimer</a></li>
          <li><a id = "Terms1" href="terms.html">Terms Of Service</a></li>
          <li><a id = "Privacy1" href="privacy.html">Privacy Policy</a></li>
@@ -294,3 +291,4 @@ $resultMessage = '<div class="alert alert-danger>' . $errors . '</div>'
  
     </body>
 </html>
+<?php ob_flush(); ?>
