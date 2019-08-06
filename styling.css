@@ -1,3 +1,5 @@
+
+
 #imagehome{
   /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/backimage.jpg');
     background-attachment: fixed ;
@@ -309,7 +311,7 @@ font-family: Signika Negative;
     
 }
 #newnavbar1{
-        
+       
         background: #f0c808;
        opacity: 1;
     }
@@ -323,12 +325,112 @@ font-family: Signika Negative;
          font-family: Signika Negative;
     }
 
+#image1{
+    
+    height: 20px;
+    width: 120px
+}
+
 .navbar-toggler{
     
     border-color: #086788;
     
 }
+
+#webretocontent p{
+    
+    font-family: Sumana !important;
+}
+
+.mobileapps1::before{
+    
+    content: '';
+    display: block;
+    height: 120px;
+   margin:-120px 0 0; 
+}
+
+.dropdown-menu li a{
+    
+    font-size: 17px !important;
+    
+}
+
+#space{
+    
+    text-align: center;
+    height: 8vh;
+    width:100%;
+
+}
+#webretocontentport{
+    
+    
+    height: 93vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+}
+#webretocontentport1{
+    
+    
+    height: 93vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
  
+#webretocontentport2{
+     height: 93vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mockup{
+    
+    height: 15vw;
+   
+    background-color: red;
+    top: 5vw;
+   
+}
+#mockupcontent{
+     height: 15vw;
+   
+    background-color: green;
+    top: 5vw;
+  
+    
+}
+
+#mockup1{
+    
+    height: 15vw;
+   
+    background-color: red;
+    top: 10vw;
+   
+}
+#mockupcontent1{
+     height: 15vw;
+   
+    background-color: green;
+    top: 10vw;
+  
+    
+}
+
 .navbar-toggler-icon{
     
     
@@ -491,13 +593,13 @@ font-family: Signika Negative;
 }
 #webretocontent p{
     
-    font-size: 20px;
-    font-family:sans-serif;
+    font-size: 2.2vh;
+  
 }
 
 #webretocontent li{
     
-    font-size: 20px;
+    font-size: 2.2vh;
 }
 #webretocontent ul{
     
