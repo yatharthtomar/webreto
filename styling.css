@@ -133,12 +133,7 @@ img {
 
 
 
-ul{
-    
-    list-style-type: none;
-    
-    
-}
+
 
 li a{
     
@@ -172,7 +167,7 @@ li a{
 .dropdown-menu{
     
     
-    background-color: #f0c808;
+    background-color: #ffe473;
     
     
    
@@ -312,7 +307,7 @@ font-family: Signika Negative;
 }
 #newnavbar1{
        
-        background: #f0c808;
+        background: #ffe473;
        opacity: 1;
     }
 #newnavbar1 ul{
@@ -366,7 +361,7 @@ font-family: Signika Negative;
 #webretocontentport{
     
     
-    height: 93vh;
+    height: 700px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
     background-attachment: fixed;
@@ -378,7 +373,7 @@ font-family: Signika Negative;
 #webretocontentport1{
     
     
-    height: 93vh;
+    height: 700px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
     background-attachment: fixed;
@@ -388,7 +383,7 @@ font-family: Signika Negative;
 }
  
 #webretocontentport2{
-     height: 93vh;
+     height:700px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
     background-attachment: fixed;
@@ -399,38 +394,203 @@ font-family: Signika Negative;
 
 #mockup{
     
-    height: 15vw;
+    height: 250px;
    
     background-color: red;
-    top: 5vw;
+    top: 50px;
    
 }
 #mockupcontent{
-     height: 15vw;
+     height: 250px;
    
     background-color: green;
-    top: 5vw;
+    top: 50px;
   
     
 }
 
 #mockup1{
     
-    height: 15vw;
+    height: 250px;
    
     background-color: red;
-    top: 10vw;
+    top: 100px;
    
 }
 #mockupcontent1{
-     height: 15vw;
+     height: 250px;
    
     background-color: green;
-    top: 10vw;
+    top: 100px;
   
     
 }
 
+#bannerimage1{
+    
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background-bright-clouds-1235398.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#webretocontentabout1{
+    
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color:transparent;
+    color: white;
+    
+}
+
+#who{
+    height: 450px;
+    left: 50%;
+    right: 50%;
+    width: 450px;
+    display: inline-block;
+}
+
+#philosphy{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    
+}
+#phil{
+     height: 100px;
+    width: 100%;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+#phil p{
+    
+    padding-top: 1.5vw;
+}
+
+
+#leadership {
+    
+    height: 320px;
+    width: 100%;
+    text-align: center;
+    
+    background-color: transparent;
+   
+}
+
+#leader{
+    height: 320px;
+    display: block;
+    color: white;
+    
+}
+
+#leader ul li{
+    
+    padding-bottom: 10px;
+    list-style-type: none;
+    
+}
+
+#focus{
+    
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+#focus1{
+    
+    height:80px;
+    width: 100%;
+    padding-top: 2vw;
+}
+
+#points{
+    
+    height: 280px;
+    width: auto;
+   
+
+}
+#points ul{
+    list-style-type:disc !important; 
+}
+#points li{
+     
+display: block;
+list-style-type:disc !important; 
+} 
+
+#pointspic{
+    height:250px;
+    background-image: url("images/antique-backdrop-background-129731.jpg")
+}
+#tip{
+    
+    height: 100%;
+
+   
+ 
+   
+    overflow-x: hidden;
+  
+}
+
+
+#sidebar1{
+    
+  height: auto;
+ 
+  
+  
+ z-index: -11;
+    top:0;
+ 
+  background-color: #111;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(images/background-black-colors-952670.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#sidebar1 p{
+  
+    color: white;
+    position: fixed;
+    display: inline-block;
+    line-height: 40vw;
+    font-size: 3vw;
+   
+  
+    
+}
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 1.5s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1.5s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
 .navbar-toggler-icon{
     
     
@@ -469,8 +629,8 @@ font-family: Signika Negative;
     
     height: 50px;
     width:auto;
-    background-color:white;
-    color: black;
+    background-color:#28292b;
+    color: #ffe473;
     text-align: center;
     vertical-align: middle;
     
@@ -487,6 +647,7 @@ font-family: Signika Negative;
 .social a{
     
     padding-right: 10px;
+    color: #ffe473;
 }
 
 
@@ -526,7 +687,7 @@ font-family: Signika Negative;
 
 #bannerimage{
     
-    height: 28vw;
+    height: 55vw;
     width:100%;
     margin-top: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/banner.jpg') ;
@@ -534,26 +695,45 @@ font-family: Signika Negative;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position:center;
-   
+    text-align: center;
     
   
 }
 
+#abouttext{
+    text-align: center;
+}
 #para{
     
     text-align: center;
     vertical-align: middle;
     color: white;
     font-family: Kalam;
+    padding-top: 8vw;
+    font-size: 6vw;
 }
 
-
-#para{
-     
-    padding-top: 10vw;
-    font-size: 5vw;
+#para2{
+    
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-top: 4vw;
+    font-family: Kalam;
     
 }
+
+#row2{
+    text-align: center;
+}
+.daku{
+    
+    height:20vw;
+    text-align: center;
+    background-color: #ffe473;
+  display: inline-block;
+}
+
 #aboutcontactpage{
     
     height: 45px;
@@ -1180,6 +1360,8 @@ webretocontent1{
     } 
      #top-bar {
     text-align: center;
+         height: 100px;
+        
     
     }
     
@@ -1247,8 +1429,42 @@ webretocontent1{
     
     #newnavbar1{
         
-        margin-top: 40px;
+        margin-top: 0px;
     }
+    
+    #webretocontentport{
+    
+    
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+}
+#webretocontentport1{
+    
+    
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+#webretocontentport2{
+     height:1200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/abstract-alloy-aluminum-2092075.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
 
 
