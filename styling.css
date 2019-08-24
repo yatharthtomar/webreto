@@ -1,5 +1,9 @@
 
+body {
+    
+    overflow-x:hidden;
 
+} 
 #imagehome{
   /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/backimage.jpg');
     background-attachment: fixed ;
@@ -304,6 +308,7 @@ font-family: Signika Negative;
     font-family: Signika Negative;
     padding-top: 8px;
     
+    
 }
 #newnavbar1{
        
@@ -430,7 +435,7 @@ font-family: Signika Negative;
     
     height: auto;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background-bright-clouds-1235398.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/banner.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -578,10 +583,10 @@ list-style-type:disc !important;
 }
 .come-in {
   transform: translateY(150px);
-  animation: come-in 1.5s ease forwards;
+  animation: come-in 2s ease forwards;
 }
 .come-in:nth-child(odd) {
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 .already-visible {
   transform: translateY(0);
@@ -601,12 +606,12 @@ list-style-type:disc !important;
 {
     
     width:100%;
-    height:30px;
+    height:60px;
     color:black;
     text-align: center;
-    background-color:white;
+    background-color:#28292b;
     margin-top: 0px;
-    line-height: 2;
+    line-height: 2.5;
 
     
 }
@@ -615,14 +620,15 @@ list-style-type:disc !important;
     
     
     font-size: 18px;
+    color: #ffe473;
     
 }
 #copyright a{
-    color: black;
+    color: #ffe473;
 }
 #copyright a:hover{
     
-    color:black;
+    color:#ffe473;
 }
 
 #top-bar{
@@ -687,7 +693,7 @@ list-style-type:disc !important;
 
 #bannerimage{
     
-    height: 55vw;
+    height: 850px;
     width:100%;
     margin-top: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/banner.jpg') ;
@@ -709,31 +715,430 @@ list-style-type:disc !important;
     vertical-align: middle;
     color: white;
     font-family: Kalam;
-    padding-top: 8vw;
-    font-size: 6vw;
+    padding-top:120px;
+    font-size: 100px;
 }
 
 #para2{
     
     text-align: center;
     color: white;
-    font-size: 2vw;
-    margin-top: 4vw;
+    font-size: 32px;
+    margin-top: 60px;
     font-family: Kalam;
     
 }
 
-#row2{
-    text-align: center;
-}
-.daku{
+
+#jumbo1{
     
-    height:20vw;
-    text-align: center;
-    background-color: #ffe473;
-  display: inline-block;
+    margin-top: 100px;
+    overflow: visible;
 }
 
+
+
+.daku{
+    
+    height:auto;
+    background-color: #ffe473;
+    padding-bottom: 15px;
+  
+}
+
+.daku h3{
+    
+    margin-top: 20px;
+}
+
+
+#button1{
+    
+    height:35px !important;
+    width:140px !important;
+    background-color: #28292b;
+    display: inline-block;
+ 
+}
+#button1 a{
+     color: white;
+     line-height: 2.0;
+}
+.button1:hover{
+    
+    text-decoration: none;
+}
+
+
+
+#secimage{
+    
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/abstract-alloy-aluminum-2092075.jpg') ;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    text-align: center;
+    z-index: -100;
+    text-align: center;
+    
+}
+
+#secimage1{
+    
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/abstract-alloy-aluminum-2092075.jpg') ;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    text-align: center;
+    z-index: -100;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+#divcontent{
+    
+    display: inline-block;
+   margin-top: 280px;
+}
+#divcontent p{
+ color: white; 
+font-family: Kalam;
+    font-size: 30px
+}
+#textpart{
+    
+    z-index: -99;
+    text-align: center;
+}
+
+#maintextpart{
+    margin-top: 240px;
+    color:#28292b;
+    display: inline-block;
+}
+#maintextpart p{
+    
+    font-size: 18px; 
+    
+    
+    
+}
+#textpart1 h1{
+    
+    text-align: center;
+    margin-top: 25px;
+    
+}
+#maintextpart1{
+    
+    margin-top: 1%;
+    margin-bottom: 6%;
+    color:#28292b;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 1%;;
+    
+   
+}
+
+#schedule a{
+    
+    text-align: center;
+   
+}
+#maintextpart1 p{
+    
+    font-size: 18px; 
+    
+    
+}
+
+#bigimage{
+    
+    height:auto;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/accounting-aerial-businesswoman-1043506.jpg') ;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    
+}
+
+.leadershipmantra{
+    
+    margin-top:140px;
+    height: auto;
+     
+}
+
+
+.leadcontain{
+    width: 100%;
+    height: 40px;
+    background-color: #ffe473;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
+.leadcontain h3{
+    
+    line-height: 1.5;
+}
+.pointscontain{
+    height: 300px;
+    width: 100%;
+    background-color: #28292b;
+    border-width: 1px;
+    border-color: #ffe473;
+    border-style: solid;
+    text-align: left;
+}
+
+.pointscontain{
+    
+    color: white;
+}
+
+.pointscontain ul li{
+    
+  
+    padding-top: 15px;
+
+}
+.pointscontain1{
+    height: 510px;
+    width: 100%;
+    background-color: #28292b;
+    border-width: 1px;
+    border-color: #ffe473;
+    border-style: solid;
+    color: white;
+    text-align: left;
+    
+}
+#schedule1{
+    
+    font-family: Kalam;
+    font-size: 23px;
+    margin-left: 22%;
+}
+
+.pointscontain1 ul li{
+    
+    padding-top: 20px;
+    padding-left: 0px !important;
+     
+}
+#pointscontain2 p{
+    
+    text-align: center;
+    font-size: 17px;
+}
+#pointscontain2 h4{
+    
+   margin-left: 20px;
+    color: #ffe473;
+}
+#pointscontain2 h5 {
+    
+   font-family: Kalam !important;
+
+     
+}
+
+#pointscontain3 p{
+    
+    text-align: center;
+    font-size: 17px;
+}
+#pointscontain3 h4{
+    
+   text-align: center;
+    color: #ffe473;
+}
+#pointscontain3 h5{
+    
+     text-align: center;
+}
+#pointscontain3 h5{
+    
+   font-family: Kalam !important;
+     
+}
+
+#brandnew ul{
+    
+   padding-left: 0px !important;
+}
+#brandnew ul li{
+    
+    list-style-type: none;
+    font-size: 19px;
+    font-family: Signika Negative;
+    color: #ffe473;
+    
+}
+#brandnew p{
+    
+    margin-top: 2%;
+}
+
+#brandnew1 p{
+    
+    font-family: Signika Negative;
+    color: #ffe473;
+    font-size: 19px;
+    margin-top: 3%;  
+    text-align: left;
+    margin-left: 10%; 
+        
+
+}
+#brandnew1 ul li{
+    
+    text-align: left;
+padding-top: 0px !important;
+    padding-bottom: 10px;
+    margin-left: 14%;
+}
+
+
+.baseul1 p{
+    
+    text-align: center !important;
+    color: white;
+    font-size: 17px;
+}
+#support{
+    
+    font-family: Kalam !important;
+    text-decoration: underline;
+}
+#support1 li h5{
+    
+    text-align: left;
+}
+
+.leadershipmantra1{
+    
+    margin-top:30px;
+    height: auto;
+     
+}
+.leadershipmantra2{
+    margin-top:0px;
+    height: auto;
+    margin-left: 100px
+    
+}
+.pointscontain2{
+    height: 210px;
+    width: 100%;
+    background-color: #28292b;
+    border-width: 1px;
+    border-color: #ffe473;
+    border-style: solid;
+    color: white;
+    text-align: left;
+    
+}
+
+.pointscontain2 ul li{
+    
+    padding-top: 20px;
+    padding-left: 0px !important;
+     
+}
+
+#testimonial{
+    
+  height:auto;
+    width:100%; 
+    background-color: transparent;
+    text-align: center;
+    margin-top: 100px;
+    margin-left:80px; 
+}
+
+
+#testi h1{
+    
+    color: #ffe473;
+    font-family: Kalam;
+}
+
+#testimage{
+    
+    background-color: #ffe473;
+    height: 320px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 3.5;
+    margin-top: 30px
+}
+
+#imagetest{
+    
+
+    margin-top: 120px
+}
+
+.daku1{
+    
+    height:320px;
+    background-color: #28292b;
+   
+    border-width: 1px;
+    border-color: #ffe473;
+    border-style: solid;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+.daku1 p{
+    margin-top: 30px;
+    color: white;
+}
+.daku1 h6{
+    
+    color: #ffe473;
+    margin-bottom: 20px;
+}
+.schedule a{
+  
+    color: #086788;
+   
+    
+}
+
+.schedule a :hover{
+    
+    text-decoration: underline;
+}
+
+.schedule1 a{
+  
+    color: #ffe473;
+   
+    text-decoration: underline;
+}
+
+.schedule1 a :hover{
+    
+    
+}
+
+
+#copycontent ul li{
+    
+    text-align: left;
+    font-size: 17px;
+}
 #aboutcontactpage{
     
     height: 45px;
@@ -742,7 +1147,7 @@ list-style-type:disc !important;
 }
 .about2{
     
-    background-color: #f0c808;
+    background-color: #ffe473;
     padding-bottom: 0px;
     text-align: center;
    
@@ -1028,7 +1433,14 @@ webretocontent1{
     
     font-size: 20px;
 } 
-   
+     .pointscontain{
+        
+        height:auto;
+    }
+.pointscontain1{
+        
+        height:auto;
+    }
 } 
 
 
@@ -1057,8 +1469,7 @@ webretocontent1{
         margin-top: 10vw;
     }
    
-   
-  
+ 
 } 
 
 @media screen and (min-width: 1900px) {
@@ -1271,7 +1682,34 @@ webretocontent1{
     font-size: 14px;
     
 }
-    
+ #bigimage{
+        
+        height: auto;
+    }
+    .pointscontain2{
+        margin-bottom: 20px;
+       
+    }
+    .leadershipmantra2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .pointscontain{
+        
+        height:auto;
+    }
+    .leadershipmantra{
+        
+        margin-top: 170px;
+    }
+    .pointscontain1{
+        
+        height:auto;
+    }
+    #leadcontain1{
+        
+        height: 80px;
+    }
 } 
 
 @media screen and (max-width: 767px) {
@@ -1405,7 +1843,7 @@ webretocontent1{
 }
     #aboutcontactpage5 {
         
-        margin-top: 25px;
+        margin-top: 0px;
     }
     #aboutcontactpage5 li{
     
@@ -1465,9 +1903,53 @@ webretocontent1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+    
+
+#bannerimage{
+    
+    height: 1550px;
 }
 
+    #para2{
+        font-size: 20px
+    }
+    #para{
+        
+        font-size: 45px;
+    }
+    
+    #bigimage{
+        
+        height: auto;
+    }
+    .pointscontain2{
+        margin-bottom: 20px;
+       
+    }
+    .leadershipmantra2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .pointscontain{
+        
+        height:auto;
+    }
+    .leadershipmantra{
+        
+        margin-top: 50px;
+    }
+    #testimonial{
+        
+        margin-left: 0px;
+    }
+    
+    .daku2{
+     
+        margin-bottom: 40px;
+    }
+}
 
+    
 @media screen and (max-width: 567px) {
     
 
