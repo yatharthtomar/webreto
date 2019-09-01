@@ -158,7 +158,6 @@ li a{
 
 
 
-
 .container{
     
     text-align: center;
@@ -356,6 +355,11 @@ font-family: Signika Negative;
     
 }
 
+th,td{
+    
+    padding: 10px 10px 10px 10px;
+}
+
 #space{
     
     text-align: center;
@@ -429,6 +433,14 @@ font-family: Signika Negative;
     top: 100px;
   
     
+}
+#myCarousel{
+    width: 94%;
+    margin: 0 auto;
+}
+.carousel-inner .item img{
+    height: 400px; 
+    margin: 0 auto;
 }
 
 #bannerimage1{
@@ -996,7 +1008,7 @@ font-family: Kalam;
     font-size: 19px;
     margin-top: 3%;  
     text-align: left;
-    margin-left: 10%; 
+    margin-left: 5%; 
         
 
 }
@@ -1014,6 +1026,10 @@ padding-top: 0px !important;
     text-align: center !important;
     color: white;
     font-size: 17px;
+}
+#oneon li{
+    
+    
 }
 #support{
     
