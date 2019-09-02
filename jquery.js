@@ -68,4 +68,48 @@ win.scroll(function(event) {
   
 });
 
-  
+var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
+ var step;
+var action;
+
+$(function(){
+   
+    if(location.reload){
+        
+        randomFruit();
+    }
+});
+
+function randomFruit(){
+    
+    $("#fruits").show();
+    $("#fruits1").show();
+    $("#fruits").css({'left': Math.round(100*Math.random()), 'top': -50});
+    $("#fruits1").css({'left': Math.round(120*Math.random()), 'top': -50});
+    
+    step = 1+ Math.round(5*Math.random());
+    
+    
+    action = setInterval(function(){
+        
+         $("#fruits").css('top', $("#fruits").position().top + step);
+        $("#fruits1").css('top', $("#fruits1").position().top + step);
+        
+        if($("#fruits").position().top > $("#designrain").height()){
+            
+                   $("#fruits").show();
+                   $("#fruits1").show();
+    $("#fruits").css({'left': Math.round(100*Math.random()), 'top': -50});
+            
+            $("#fruits1").css({'left': Math.round(120*Math.random()), 'top': -50});
+    
+                
+        }
+    },20)
+    
+}
+
+function anyFruit(){
+    
+    $("#fruits").attr('src', 'images/'+fruits[Math.round(8*Math.random())]+'.png');
+}

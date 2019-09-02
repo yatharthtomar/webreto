@@ -13,7 +13,7 @@ body {
     
     /*background-image: linear-gradient( #f0c808, white);*/
     
-    background-color: #f0c808;
+    background-color: #ffe473;
     
     
 }
@@ -28,7 +28,7 @@ body {
     height: auto;
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 60px;
 }
 
 #webretologo{
@@ -45,6 +45,16 @@ body {
     height: auto;
 }
 
+#designrain{
+    width: auto;
+    height: 360px;
+    overflow: hidden;
+}
+.fruit{
+    
+    display: none;
+    position: flex;
+}
 #websitename{
     
     height: auto;
@@ -57,7 +67,7 @@ body {
 
 #websitename p{
     
-    margin-top: 4vh;
+    margin-top: 30px;
     font-size: 60px;
     font-family: Signika Negative;
     
@@ -270,7 +280,7 @@ li a{
     
     height: 40px;
     width: 100%;
-    margin-top: 110px;
+ 
     
 }
 
@@ -435,8 +445,8 @@ th,td{
     
 }
 #myCarousel{
-    width: 94%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 30px auto 0px auto;
 }
 .carousel-inner .item img{
     height: 400px; 
