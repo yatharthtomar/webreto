@@ -13,7 +13,8 @@ body {
     
     /*background-image: linear-gradient( #f0c808, white);*/
     
-    background-color: #ffe473;
+    background-color: #28292B;
+    overflow-y:hidden;
     
     
 }
@@ -49,6 +50,7 @@ body {
     width: auto;
     height: 360px;
     overflow: hidden;
+    color: #ffe473;
 }
 .fruit{
     
@@ -70,6 +72,7 @@ body {
     margin-top: 30px;
     font-size: 60px;
     font-family: Signika Negative;
+    color: #ffe473;
     
 }
 
@@ -294,7 +297,7 @@ li a{
    font-size: 20px;
    padding-right: 2vw;
 font-family: Signika Negative;
-    color: #00120b;
+    color: #ffe473;
    
 }
 #aboutcontactpage5 li a:hover{
@@ -316,6 +319,7 @@ font-family: Signika Negative;
     font-size: 18px;
     font-family: Signika Negative;
     padding-top: 8px;
+    color: #ffe473;
     
     
 }

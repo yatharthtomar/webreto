@@ -68,7 +68,7 @@ win.scroll(function(event) {
   
 });
 
-var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
+/*var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
  var step;
 var action;
 
@@ -112,4 +112,4 @@ function randomFruit(){
 function anyFruit(){
     
     $("#fruits").attr('src', 'images/'+fruits[Math.round(8*Math.random())]+'.png');
-}
+}*/
