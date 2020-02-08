@@ -113,3 +113,11 @@ function anyFruit(){
     
     $("#fruits").attr('src', 'images/'+fruits[Math.round(8*Math.random())]+'.png');
 }*/
+
+ $(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+});
