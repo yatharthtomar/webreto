@@ -1,4 +1,3 @@
-<?php ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,28 +13,40 @@
      <link rel="stylesheet" href="assets/css/all.css">
      <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
   <title>Web Reto | Contact</title>
+    <style>
+        .container{
+            
+            text-align: left !important;
+        }
+        .buttonz{
+            
+            margin-bottom: 15px;
+            
+        }
+    </style>
 </head>
 
 <body>
      
    
   <!-- Top Bar -->
-  <section id="top-bar" class="p-3">
-    <div class="container">
+ <section id="top-bar" class="p-3">
+      <div class="container">
       <div class="row ">
-        <div class="col-md-4">
+        <div class="col-md-4" style="text-align: center;">
           <i class="fas fa-phone phoneimage"></i>123456789
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="text-align: center;">
           <i class="fas fa-envelope-open phoneimage"></i>contact@webreto.com
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-top:5px;">
           <div class="social text-right">
-               <a href="#">
+              <a href="#">
               <i class="fab fa-twitter"></i>
             </a>
-
             <a href="#">
               <i class="fab fa-facebook"></i>
             </a>
@@ -51,8 +62,9 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
   </section>
+      
     
  
 <!-- Navbar -->
@@ -116,9 +128,10 @@
           </li>
         </ul>
       </div>
-    </div>
+         </div>
   </nav>
-    <div id ="bannerimage"> 
+    
+    <div id ="bannerimage" style="height:35vw !important; vertical-align: center !important;"> 
     <div id= "abouttext">
     <p id="para">Contact Us</p>
     </div>
@@ -128,14 +141,19 @@
     
    <div class="container">
         <div class="row">
-        <div class="col-sm-12 contactform">
+        <div class="col-sm-12 contactform" id = "naacho">
            <h1>Contact Us</h1>
           <?php
 
 //Get user input
 $name = $_POST["name"];
 $email = $_POST["email"];
-$services = $_POST["servicesdata[]"];
+$services = $_POST["select"];
+$services1;
+foreach ($services as $option)
+        {
+         $services1 .= '<p>'. $option . '</p>';
+        }
 $message = $_POST["message"];
 
 //error messages
@@ -157,7 +175,7 @@ if($_POST["submit"]){
     }else{
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
         if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
-            $errors .=$invalidEmail;   
+           $errors .=$invalidEmail;   
         }
 		
 	
@@ -176,38 +194,38 @@ if($_POST["submit"]){
         $to = "yatharth.tomar91@gmail.com";
         $subject = "Contact";
         $message = "
-        <p>Name: $name.</p>
-        <p>Email: $email.</p>
-		<p> Services Required : $services. </p>
+        <p>Name: $name</p>
+        <p>Email: $email</p>
+		<p> Services Required : $services1 </p>
         <p>Message:</p>
         <p><strong>$message</strong></p>"; 
-        $headers = "Content-type: text/html";
+        $headers = "Content-type: text/html" ;
         if(mail($to, $subject, $message, $headers)){
-//            $resultMessage = '<div class="alert alert-success">Thanks for your message. We will get back to you as soon as possible!</div>';  
+         $resultMessage = '<div class="alert alert-success">Thanks for your message. We will get back to you as soon as possible!</div>';  
            
         }else{
-            $resultMessage = '<div class="alert alert-warning">Unable to send Email. Please try again later!</div>';  
+            $resultMessage  = '<div class="alert alert-warning">Unable to send Email. Please try again later!</div>';  
         }
     }
     echo $resultMessage;
 }
 ?>
-            <form action="contact.php#framework_form" method="post" id=framework_form>
+            <form action="contact.php#para" method="post" id=framework_form>
              <div class="form-group">
-                 <label for ="name1"> Name:</label>
-             <input type="text" name="name" id="name1" placeholder="Name" class="form-control">
+                 <label class = "alignment" for ="name12"> Name:</label>
+             <input type="text" name="name" id="name12" placeholder="Name" class="form-control">
                 
             </div>
                   <div class="form-group">
-                 <label for ="email"> Email:</label>
-             <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                 <label class = "alignment" for ="email"> Email:</label>
+             <input type="email" name="email" id="email" placeholder="Email" class="form-control">
                 
             </div>
                 
             <div class="form-group">
-                 <label for ="services"> Services:</label>
+                 <label class = "alignment" for ="services"> Services:</label>
                
-               <select name = "servicesdata[]" data-style="option1" classname="langOpt[]" multiple id="langOpt" multiple data-size="6">
+               <select name = "select[]" data-style="option1" classname="langOpt[]" multiple id="langOpt" multiple data-size="6">
     <optgroup class ="great1"label="Web Develpoment">
     <option  value="Website Development">Website Development</option>
     <option value="Desktop Apps Development">Desktop Apps Development</option>
@@ -233,25 +251,19 @@ if($_POST["submit"]){
                    <option value="Business Analytics and Intelligence">Business Analytics and Intelligence</option>
                    </optgroup>
 </select>
-            <script>
-                $('#langOpt').multiselect({
-                columns: 1,
-                placeholder: 'Select Services'
-});
-                
-            </script>
+            
                 </div>
                 
             
 
                  <div class="form-group">
-                 <label for ="message"> Message:</label>
-                     <textarea name="message" id="message" class="form-control" rows="5">
-                     </textarea>
+                 <label class = "alignment" for ="message"> Message:</label>
+                     <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                    
                 
             </div>
                 
-                 <input type="submit" name="submit" class="btn btn-success btn-lg" value="Send Message">
+                 <input type="submit" name="submit" class="btn btn-success btn-lg buttonz" value="Submit">
             
             </form>
         
@@ -271,10 +283,10 @@ if($_POST["submit"]){
  
   <ul id="aboutcontact2">
          
-         <li><a id = "contact1" href="contact.php">Contact</a></li>
-         <li><a id = "Disclaimer1" href="disclaimer.html">Disclaimer</a></li>
-         <li><a id = "Terms1" href="terms.html">Terms Of Service</a></li>
-         <li><a id = "Privacy1" href="privacy.html">Privacy Policy</a></li>
+         <li><a id = "contact1" href="contact.php" style="padding-right:50px;">Contact</a></li>
+         <li><a id = "Disclaimer1" href="disclaimer.html" style="padding-right:50px;">Disclaimer</a></li>
+         <li><a id = "Terms1" href="terms.html" style="padding-right:50px;">Terms Of Service</a></li>
+         <li><a id = "Privacy1" href="privacy.html" style="padding-right:50px;">Privacy Policy</a></li>
                   
      </ul>
        
@@ -286,11 +298,18 @@ if($_POST["submit"]){
      </div>
   
 
-
+<script>
+                $('#langOpt').multiselect({
+                columns: 1,
+                placeholder: 'Select Services'
+});
+                
+            </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/jquery-3.3.1.min.js "></script>  
     <script src="assets/js/bootstrap.bundle.min.js "></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
  
     </body>
 </html>
-<?php ob_flush(); ?>
