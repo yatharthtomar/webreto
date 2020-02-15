@@ -96,7 +96,7 @@
         <li><a class="dropdown-item" href="webdev.html#desktop">Desktop Apps Development</a></li>
         <li><a class="dropdown-item" href="webdev.html#webscrapping">Web Scrapping</a></li>
         <li><a class="dropdown-item" href="webdev.html#guiapps">GUI apps for Embedded Systems</a></li>
-        <li><a class="dropdown-item" href="webdev.html#requirements">Requirement Engineering</a></li>
+        <li><a class="dropdown-item" href="webdev.html#requirements">Requirements Engineering</a></li>
       </ul>
           </li>
           <li class="nav-item  mr-3 dropdown">
@@ -132,8 +132,8 @@
   </nav>
     
     <div id ="bannerimage" style="height:35vw !important; vertical-align: center !important;"> 
-    <div id= "abouttext">
-    <p id="para">Contact Us</p>
+    <div id= "abouttext" style="height:100%; width:auto;">
+    <p id="para" style="padding-top:13vw;">Contact Us</p>
     </div>
     </div>
      
@@ -278,10 +278,10 @@ if($_POST["submit"]){
      
     
     </div>
-    <div id = "aboutcontactpage" class="about2">
+    <div id = "aboutcontactpage" class="about2" style="height:auto !important; margin-bottom: 0px !important;">
        
  
-  <ul id="aboutcontact2">
+  <ul id="aboutcontact2" style="margin-bottom:0px !important;">
          
          <li><a id = "contact1" href="contact.php" style="padding-right:50px;">Contact</a></li>
          <li><a id = "Disclaimer1" href="disclaimer.html" style="padding-right:50px;">Disclaimer</a></li>

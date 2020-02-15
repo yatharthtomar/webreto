@@ -386,6 +386,12 @@ li a{
     
 }
 
+.dropdown-menu li a:hover{
+    background-color: #28292B;
+   color:#ffe473 !important;
+    transition: all 0.5s ease 0s;
+    
+}
 #aboutsection{
     
     width: 100%;
@@ -517,7 +523,8 @@ font-family: Signika Negative;
     }
 #newnavbar1 ul{
     
-    margin-left: 25px;
+  
+    text-align: center;
 }
      #newnavbar1 li a{
         
@@ -546,13 +553,13 @@ font-family: Signika Negative;
     
     content: '';
     display: block;
-    height: 120px;
-   margin:-120px 0 0; 
+    height: 240px;
+   margin:-240px 0 0; 
 }
 
 .dropdown-menu li a{
     
-    font-size: 17px !important;
+    font-size: 15px !important;
     
 }
 
@@ -1280,7 +1287,7 @@ padding-top: 0px !important;
     background-color: transparent;
     text-align: center;
     margin-top: 100px;
-    margin-left:80px; 
+    
 }
 
 
@@ -1358,7 +1365,7 @@ padding-top: 0px !important;
 }
 #aboutcontactpage{
     
-    height: 45px;
+    height: auto !important;
     width: 100%;
     line-height: 2.5;
 }
@@ -1423,11 +1430,15 @@ padding-top: 0px !important;
 #aboutcontact2 li a{
     font-size:20px !important;
     font-family: Signika Negative;
-    margin-top: 10px;
+    padding-top: 10px;
     
 }
 
-
+#aboutcontact2{
+    
+    
+    margin-bottom: 0px !important;
+}
 
 .contactform{
     
@@ -1974,6 +1985,10 @@ webretocontent1{
         
         margin-top: 47vh;
     }
+    .navbar-nav li a {
+        
+       font-size: 18px;
+    }
 } 
 
 @media screen and (max-width: 767px) {
@@ -2223,6 +2238,20 @@ webretocontent1{
         
         font-size: 17px;
     }
+    #testimage{
+        
+        display:none; 
+    }
+    #maintextpart{
+        
+        margin-top: 20px;
+    }
+    
+    #copyright p{
+        
+        font-size: 14px;
+    }
+    
 }
 
     
@@ -2236,6 +2265,15 @@ webretocontent1{
     }
     #aboutcontact2 li a{
     font-size:25px;
+    display: block;
+    }
+     #aboutcontact2 li {
+    
+    display: block;
+    }
+    #aboutcontactpage ul {
+        
+        display: block !important;
     }
     
     .stripe{
@@ -2256,7 +2294,27 @@ webretocontent1{
         
         margin-top: 0px;
     }
+    
+    #testimage{
+        
+        display:none; 
+    }
 } 
+
+@media screen and (max-width: 455px) {
+    
+    #para{
+        
+        
+        padding-top: 10vw !important;
+    }
+    .navbar-toggler{
+        
+        float: right !important;
+    }
+    
+    
+}
 
  
 

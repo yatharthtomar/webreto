@@ -17,7 +17,7 @@
  // code here
 
 
-(function($) {
+$(document).ready(function($) {
 
   /**
    * Copyright 2012, Digital Fusion
@@ -44,11 +44,9 @@
     return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
   };
-    
-})(jQuery);
-var win = $(window);
+    var win = $(window);
 
-var allMods = $(".module");
+var allMods = $(".mobileapps1");
 
 allMods.each(function(i, el) {
   var el = $(el);
@@ -67,6 +65,9 @@ win.scroll(function(event) {
   });
   
 });
+    
+})(jQuery);
+
 
 /*var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
  var step;
