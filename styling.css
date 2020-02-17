@@ -875,6 +875,10 @@ list-style-type:disc !important;
     padding-right: 10px;
     color: #ffe473;
 }
+.social{
+    
+    padding-top: 5px;
+}
 
 
 #mynavBar{
@@ -888,7 +892,14 @@ list-style-type:disc !important;
     
     
 }
-
+.carousel-indicators li{
+    
+    background-color: #ffe473;
+}
+.carousel-indicators .active{
+    
+    background-color: #28292b;
+}
 #namesite{
     
     font-size: 3.5vw;
@@ -1209,6 +1220,11 @@ font-family: Kalam;
     margin-top: 2%;
 }
 
+.brandnew2{
+    
+    height:300px;
+    overflow: hidden;
+}
 #brandnew1 p{
     
     font-family: Signika Negative;
