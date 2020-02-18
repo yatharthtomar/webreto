@@ -40,13 +40,10 @@
           <i class="fas fa-phone phoneimage"></i>123456789
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <i class="fas fa-envelope-open phoneimage"></i>contact@webreto.com
+          <i class="fas fa-envelope-open phoneimage"></i>thewebreto@gmail.com
         </div>
-        <div class="col-md-4" style="padding-top:5px;">
+        <div class="col-md-4" style="padding-top:0px;">
           <div class="social text-right">
-              <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
             <a href="#">
               <i class="fab fa-facebook"></i>
             </a>
@@ -55,9 +52,6 @@
             </a>
             <a href="#">
               <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-pinterest"></i>
             </a>
           </div>
         </div>
@@ -283,10 +277,10 @@ if($_POST["submit"]){
  
   <ul id="aboutcontact2" style="margin-bottom:0px !important;">
          
-         <li><a id = "contact1" href="contact.php" style="padding-right:50px;">Contact</a></li>
-         <li><a id = "Disclaimer1" href="disclaimer.html" style="padding-right:50px;">Disclaimer</a></li>
-         <li><a id = "Terms1" href="terms.html" style="padding-right:50px;">Terms Of Service</a></li>
-         <li><a id = "Privacy1" href="privacy.html" style="padding-right:50px;">Privacy Policy</a></li>
+         <li><a id = "contact1" href="contact.php">Contact</a></li>
+         <li><a id = "Disclaimer1" href="disclaimer.html">Disclaimer</a></li>
+         <li><a id = "Terms1" href="terms.html">Terms Of Service</a></li>
+         <li><a id = "Privacy1" href="privacy.html">Privacy Policy</a></li>
                   
      </ul>
        

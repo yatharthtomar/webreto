@@ -17,7 +17,7 @@
  // code here
 
 
-$(document).ready(function($) {
+/*$(document).ready(function($) {
 
   /**
    * Copyright 2012, Digital Fusion
@@ -30,7 +30,7 @@ $(document).ready(function($) {
    *     only accounts for vertical position, not horizontal.
    */
 
-  $.fn.visible = function(partial) {
+ /* $.fn.visible = function(partial) {
     
       var $t            = $(this),
           $w            = $(window),
@@ -66,7 +66,7 @@ win.scroll(function(event) {
   
 });
     
-})(jQuery);
+})*/
 
 
 /*var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
@@ -122,3 +122,10 @@ function anyFruit(){
     $('.animated-icon1').toggleClass('open');
   });
 });
+
+$(document).ready(function(){ 
+     var navMain = $("#navbarNavAltMarkup");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });

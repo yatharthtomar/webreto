@@ -5053,6 +5053,14 @@ button.bg-dark:focus {
     top: 0;
     z-index: 1020; } }
 
+/*@supports (-webkit-appearance:none) {
+    
+      .sticky-top {
+    position: static;
+    top: 0;
+    z-index: 1020; }
+}*/
+
 .sr-only {
   position: absolute;
   width: 1px;

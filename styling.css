@@ -1,4 +1,18 @@
+@font-face {
+  font-family: "Signika Negative";
+  src: url("webfonts/SignikaNegative-Regular.ttf")  format('truetype');
+      
+}
 
+@font-face {
+  font-family: "Kalam";
+  src:url("webfonts/Kalam-Regular.ttf")  format('truetype');
+}
+
+@font-face {
+  font-family: "Sumana";
+  src: url("webfonts/Sumana-Regular.ttf")  format('truetype');
+}
 body {
     
     overflow-x:hidden;
@@ -553,8 +567,8 @@ font-family: Signika Negative;
     
     content: '';
     display: block;
-    height: 240px;
-   margin:-240px 0 0; 
+    height: 380px;
+   margin:-380px 0 0; 
 }
 
 .dropdown-menu li a{
@@ -877,7 +891,7 @@ list-style-type:disc !important;
 }
 .social{
     
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 
@@ -1005,7 +1019,7 @@ list-style-type:disc !important;
 #secimage{
     
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/abstract-alloy-aluminum-2092075.jpg') ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/ghf.png') ;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1019,7 +1033,7 @@ list-style-type:disc !important;
 #secimage1{
     
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/abstract-alloy-aluminum-2092075.jpg') ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/ghf.png') ;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1112,6 +1126,7 @@ font-family: Kalam;
     width: 100%;
     height: 40px;
     background-color: #ffe473;
+    -webkit-background-color: #ffe473;
     padding-left: 0px !important;
     padding-right: 0px !important;
     
@@ -1157,7 +1172,7 @@ font-family: Kalam;
     
     font-family: Kalam;
     font-size: 23px;
-    margin-left: 22%;
+    text-align: center important;
 }
 
 .pointscontain1 ul li{
@@ -1355,6 +1370,10 @@ padding-top: 0px !important;
    
     
 }
+.schedule{
+    
+    text-align: center;
+}
 
 .schedule a :hover{
     
@@ -1454,6 +1473,7 @@ padding-top: 0px !important;
     
     
     margin-bottom: 0px !important;
+    padding-left: 0px !important;
 }
 
 .contactform{
@@ -2231,7 +2251,7 @@ webretocontent1{
     }
     .leadershipmantra{
         
-        margin-top: 50px;
+        margin-top: 150px;
     }
     #testimonial{
         
@@ -2267,6 +2287,11 @@ webretocontent1{
         
         font-size: 14px;
     }
+    .social{
+    
+    padding-top: 5px;
+}
+
     
 }
 
@@ -2305,10 +2330,20 @@ webretocontent1{
         
         font-size: 45px;
     }
+    
+    #name1 {
+        
+        padding-top: 44vh;
+    }
+    #name2 {
+        
+        padding-top: 44vh;
+    }
     .changing {
         
         
         margin-top: 0px;
+        margin-left: 15px;
     }
     
     #testimage{
@@ -2324,10 +2359,10 @@ webretocontent1{
         
         padding-top: 10vw !important;
     }
-    .navbar-toggler{
+   /* .navbar-toggler{
         
         float: right !important;
-    }
+    }*/
     
     
 }
