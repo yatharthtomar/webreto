@@ -38,10 +38,10 @@
       <div class="container">
       <div class="row ">
         <div class="col-md-4" style="text-align: center;">
-          <i class="fas fa-phone phoneimage"></i>123456789
+          <i class="fas fa-phone phoneimage"></i>+91 9050909806
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <i class="fas fa-envelope-open phoneimage"></i>thewebreto@gmail.com
+          <i class="fas fa-envelope-open phoneimage"></i>tomar@webreto.com
         </div>
         <div class="col-md-4" style="padding-top:0px;">
           <div class="social text-right">
