@@ -101,7 +101,7 @@
         <li><a class="dropdown-item" href="design.html#content">Content Writing</a></li>
         <li><a class="dropdown-item" href="design.html#brandlogo">Brand Identity Design</a></li>
         <li><a class="dropdown-item" href="design.html#landing">Landing Page Design</a></li>
-                  <li><a class="dropdown-item" href="design.html#photoshop">Photoshop & Illustrator</a></li>
+                  <li><a class="dropdown-item" href="design.html#photoshop">Photoshop</a></li>
         <li><a class="dropdown-item" href="design.html#webdesign">Website Design Packages</a></li>
       </ul>
           </li>

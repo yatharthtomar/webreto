@@ -1331,7 +1331,7 @@ padding-top: 0px !important;
 #testimage{
     
     background-color: #ffe473;
-    height: 320px;
+    height: auto;
     margin-bottom: 20px;
     text-align: center;
     line-height: 3.5;
@@ -1346,7 +1346,7 @@ padding-top: 0px !important;
 
 .daku1{
     
-    height:320px;
+    height:auto;
     background-color: #28292b;
    
     border-width: 1px;
