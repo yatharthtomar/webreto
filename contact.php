@@ -45,13 +45,13 @@
         </div>
         <div class="col-md-4" style="padding-top:0px;">
           <div class="social text-right">
-            <a href="#">
+            <a href="https://www.facebook.com/thewebreto">
               <i class="fab fa-facebook"></i>
             </a>
             <a href="#">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="#">
+            <a href="https://instagram.com/webreto?igshid=x9i57xiewe4">
               <i class="fab fa-instagram"></i>
             </a>
           </div>

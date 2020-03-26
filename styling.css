@@ -1385,6 +1385,14 @@ padding-top: 0px !important;
     color: #ffe473;
    
     text-decoration: underline;
+    
+    text-align: right;
+}
+
+.schedule1{
+  
+
+    text-align: right !important;
 }
 
 .schedule1 a :hover{
