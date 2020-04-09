@@ -599,6 +599,7 @@ th,td{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size:cover;
     text-align: center;
 }
 #webretocontentport1{
@@ -611,6 +612,7 @@ th,td{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size:cover;
 }
  
 #webretocontentport2{
@@ -621,6 +623,7 @@ th,td{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size:cover;
 }
 
 #mockup{
@@ -674,6 +677,7 @@ th,td{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size:cover;
 }
 #webretocontentabout1{
     
@@ -802,6 +806,7 @@ list-style-type:disc !important;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
+    -webkit-background-size:cover;
 }
 
 #sidebar1 p{
@@ -945,6 +950,7 @@ list-style-type:disc !important;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
     background-position:center;
     text-align: center;
     
@@ -1023,6 +1029,7 @@ list-style-type:disc !important;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
     background-position:center;
     text-align: center;
     z-index: -100;
@@ -1037,6 +1044,7 @@ list-style-type:disc !important;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
     background-position:center;
     text-align: center;
     z-index: -100;
@@ -1110,6 +1118,7 @@ font-family: Kalam;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
     background-position:center;
     
 }
@@ -1519,6 +1528,7 @@ webretocontent1{
      background-attachment:scroll;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
     background-position:center;
 }
 
@@ -2203,6 +2213,7 @@ webretocontent1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+        -webkit-background-size:cover;
     text-align: center;
 }
 #webretocontentport1{
@@ -2215,6 +2226,7 @@ webretocontent1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size:cover;
 }
  
 #webretocontentport2{
@@ -2225,6 +2237,7 @@ webretocontent1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size:cover;
 }
     
 
