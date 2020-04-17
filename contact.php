@@ -40,7 +40,9 @@
       <div class="container">
       <div class="row ">
         <div class="col-md-4" style="text-align: center;">
-          <i class="fas fa-phone phoneimage"></i>+91 9050909806
+         <a href="tel:+91 9050909806">
+            <i class="fas fa-phone phoneimage"></i>+91 9050909806
+            </a>
         </div>
         <div class="col-md-4" style="text-align: center;">
           <i class="fas fa-envelope-open phoneimage"></i>tomar@webreto.com

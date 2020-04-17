@@ -614,7 +614,11 @@ th,td{
   background-size: cover;
     -webkit-background-size:cover;
 }
- 
+
+.phnecol{
+    
+    color: #ffe473;
+}
 #webretocontentport2{
      height:700px;
     width: 100%;
@@ -868,6 +872,11 @@ list-style-type:disc !important;
 #copyright a:hover{
     
     color:#ffe473;
+}
+
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
 }
 
 #top-bar{

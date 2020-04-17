@@ -101,7 +101,18 @@ WebReto
     <script src="assets/js/jquery-3.3.1.min.js "></script>
   <script src="assets/js/bootstrap.bundle.min.js "></script>
     <script src="jquery.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
+    <script>
+       var timeL = gsap.timeline();
+timeL.from("#name1",{opacity: 0, x:-300, duration:2});   
+
+timeL.from("#name2",{opacity : 0, x:300, duration:2},"-=2");
+
+//timeL.fromTo("#square2",{opacity :0},{opacity:1, duration : 4}, "+=2" );
+
+//gsap.effects.explode('#ssquare1',{direction: "up", duration : 3});
     
+    </script>
     
     
 </body>
