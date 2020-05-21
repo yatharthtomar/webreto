@@ -1,5 +1,7 @@
 /* main header*/
-
+html {
+    scroll-behavior: smooth;
+  }
 #header{
 
     height:auto;
@@ -10,11 +12,103 @@
     background-repeat: no-repeat;
     background-size:100% 700px;
     -webkit-background-size:100% 700px;
+    
  
   
    
 }
+#services p{
+    color: black;
+}
 
+#testimonials p{
+    color: black;
+}
+#terms p{
+
+    color: black;
+}
+.animate__animated.animate__slideInLeft,
+.animate__animated.animate__slideInRight{
+    --animate-duration: 2s;
+  }
+
+  .animate__animated.animate__fadeIn
+{
+    --animate-duration: 4s;
+  }
+  .animate__animated.animate__shakeY,
+  .animate__animated.animate__shakeX{
+
+    animation-iteration-count: infinite;
+    --animate-duration: 8s;
+  }
+.displayo{
+
+    display: none;
+    scroll-behavior: smooth;
+}
+#information{
+
+    text-align: center;
+}
+
+#information p {
+ 
+   color: black;
+   
+}
+
+#profile1::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+
+#profile2::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#profile3::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#profile4::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#profile5::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#profile6::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#profile7::before {
+
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
 #seconddiv::before{
     
     content: '';
@@ -24,6 +118,21 @@
 }
 
 #seconddiv1::before{
+    
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+
+#seconddiv2::before{
+    
+    content: '';
+    display: block;
+    height: 140px;
+   margin:-140px 0 0; 
+}
+#seconddiv3::before{
     
     content: '';
     display: block;
@@ -193,7 +302,7 @@ p{
 #button1{
 
     background-color: #1C5DA7;
-    width: 120px;
+    width: 160px !important;
     color:#EBF7FE;
     border-radius: 5px;
     padding:3px 3px 3px 3px;
@@ -434,7 +543,10 @@ p{
 #sitelink{
 
     color: #C5D86D;
-}  
+} 
+
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -1027,6 +1139,125 @@ p{
 
         font-size: 1.5rem;
      }
+
+     #portimage1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 170px;
+        width: 170px;
+        background-image: url("images/navkia.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+         margin-top: 6rem;
+
+     }
+
+      #portimage2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 170px;
+        width: 170px;
+        background-image: url("images/career.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+       
+
+     }
+
+     #portimage3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 170px;
+        width: 170px;
+        background-image: url("images/perimeno.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: right;
+        margin-top: 4rem;
+        
+
+     }
+
+     #portimage4{
+        margin-left: auto;
+        margin-right: auto;
+        height: 170px;
+        width: 170px;
+        background-image: url("images/dani.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 14rem;
+       
+
+     }
+
+     #portimage5{
+        margin-left: auto;
+        margin-right: auto;
+        height: 110px;
+        width: 110px;
+        background-image: url("images/bakery.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 10rem;
+     
+
+     }
+
+     #portimage6{
+        margin-left: auto;
+        margin-right: auto;
+        height:  110px;
+        width: 110px;
+        background-image: url("images/Indian.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 4rem;
+     
+
+     }
+
+
+     #portimage7{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+        background-image: url("images/real.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 8rem;
+      
+
+     }
+     .port{
+        margin-top: 3rem;
+        height: 22rem;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px grey;
+        border: none;
+        border-radius: 15px;
+    
+     }
+     #information{
+
+        text-align: center;
+    }
+    
+    #information p {
+     
+       color: black;
+       
+    }
  
  
 }
@@ -1601,7 +1832,132 @@ p{
          background-size: 30% 50%;
          -webkit-background-size:30% 50%;
 
+         
       }
+     
+      #portimage1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 300px;
+        background-image: url("images/navkia.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+         margin-top: 6rem;
+
+     }
+
+      #portimage2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+        background-image: url("images/career.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+       
+
+     }
+
+     #portimage3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+        background-image: url("images/perimeno.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: right;
+        margin-top: 4rem;
+        
+
+     }
+
+     #portimage4{
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+        background-image: url("images/dani.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 14rem;
+       
+
+     }
+
+     #portimage5{
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+        width: 180px;
+        background-image: url("images/bakery.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 10rem;
+     
+
+     }
+
+     #portimage6{
+        margin-left: auto;
+        margin-right: auto;
+        height:  180px;
+        width: 180px;
+        background-image: url("images/Indian.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 4rem;
+     
+
+     }
+
+
+     #portimage7{
+        margin-left: auto;
+        margin-right: auto;
+        height: 270px;
+        width: 270px;
+        background-image: url("images/real.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 8rem;
+      
+
+     }
+     .port{
+        margin-top: 3rem;
+        height: 22rem;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px grey;
+        border: none;
+        border-radius: 15px;
+    
+     }
+     #information{
+
+        text-align: center;
+    }
+    
+    #information p {
+     
+       color: black;
+       
+    }
+      
+
+     
+
+     
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -2155,6 +2511,115 @@ p{
          background-size: 40% 60%;
          -webkit-background-size:40% 60%;
       }
+
+      #portimage1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+        background-image: url("images/navkia.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+         margin-top: 6rem;
+
+     }
+
+      #portimage2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+        background-image: url("images/career.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+       
+
+     }
+
+     #portimage3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+        background-image: url("images/perimeno.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: right;
+        margin-top: 4rem;
+        
+
+     }
+
+     #portimage4{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+        background-image: url("images/dani.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 14rem;
+       
+
+     }
+
+     #portimage5{
+        margin-left: auto;
+        margin-right: auto;
+        height: 230px;
+        width: 230px;
+        background-image: url("images/bakery.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 10rem;
+     
+
+     }
+
+     #portimage6{
+        margin-left: auto;
+        margin-right: auto;
+        height: 230px;
+        width: 230px;
+        background-image: url("images/Indian.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 4rem;
+     
+
+     }
+
+
+     #portimage7{
+        margin-left: auto;
+        margin-right: auto;
+        height: 320px;
+        width: 320px;
+        background-image: url("images/real.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 8rem;
+      
+
+     }
+     .port{
+        margin-top: 3rem;
+        height: 22rem;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px grey;
+        border: none;
+        border-radius: 15px;
+    
+     }
  
 }
 
@@ -2692,6 +3157,114 @@ p{
          background-size: 50% 70%;
          -webkit-background-size:50% 70%;
       }
+      #portimage1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/navkia.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+         margin-top: 6rem;
+
+     }
+
+      #portimage2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/career.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+       
+
+     }
+
+     #portimage3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/perimeno.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: right;
+        margin-top: 4rem;
+        
+
+     }
+
+     #portimage4{
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        width: 350px;
+        background-image: url("images/dani.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 14rem;
+       
+
+     }
+
+     #portimage5{
+        margin-left: auto;
+        margin-right: auto;
+        height: 380px;
+        width: 380px;
+        background-image: url("images/bakery.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 10rem;
+     
+
+     }
+
+     #portimage6{
+        margin-left: auto;
+        margin-right: auto;
+        height: 380px;
+        width: 380px;
+        background-image: url("images/Indian.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 4rem;
+     
+
+     }
+
+
+     #portimage7{
+        margin-left: auto;
+        margin-right: auto;
+        height: 470px;
+        width: 470px;
+        background-image: url("images/real.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 8rem;
+      
+
+     }
+     .port{
+        margin-top: 3rem;
+        height: 22rem;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px grey;
+        border: none;
+        border-radius: 15px;
+    
+     }
  
     
 }
@@ -2787,6 +3360,7 @@ p{
         background-repeat: no-repeat;
         background-size:100% 700px;
         -webkit-background-size:100% 700px;
+
      
       
        
@@ -3268,6 +3842,116 @@ p{
       #left1 h2{
 
         font-size: 2rem;
+     }
+
+     #portimage1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/navkia.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+         margin-top: 6rem;
+
+     }
+
+      #portimage2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/career.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+       
+
+     }
+
+     #portimage3{
+        margin-left: auto;
+        margin-right: auto;
+        height: 450px;
+        width: 450px;
+        background-image: url("images/perimeno.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: right;
+        margin-top: 4rem;
+        
+
+     }
+
+     #portimage4{
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        width: 350px;
+        background-image: url("images/dani.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 14rem;
+       
+
+     }
+
+     #portimage5{
+        margin-left: auto;
+        margin-right: auto;
+        height: 380px;
+        width: 380px;
+        background-image: url("images/bakery.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        margin-top: 10rem;
+     
+
+     }
+
+     #portimage6{
+        margin-left: auto;
+        margin-right: auto;
+        height: 380px;
+        width: 380px;
+        background-image: url("images/Indian.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 4rem;
+     
+
+     }
+
+
+     #portimage7{
+        margin-left: auto;
+        margin-right: auto;
+        height: 470px;
+        width: 470px;
+        background-image: url("images/real.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        -webkit-background-size:100% 100%;
+        float: left;
+        margin-top: 8rem;
+      
+
+     }
+
+     .port{
+        margin-top: 3rem;
+        height: 22rem;
+        width: 90%;
+        box-shadow: 8px 8px 8px 8px grey;
+        border: none;
+        border-radius: 15px;
+    
      }
 
 }

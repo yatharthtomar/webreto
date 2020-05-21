@@ -9,13 +9,15 @@
     <script src="multiselect/jquery.multiselect.js"></script>
     <link rel="stylesheet" href="styling.css">
     <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha256-6hqHMqXTVEds1R8HgKisLm3l/doneQs+rS1a5NLmwwo=" crossorigin="anonymous" />
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+ 
 </head>
 <body>
 
-  <div id = "header">
+  <div id = "header1">
     <nav class="navbar navbar-expand-lg sticky-top" id ="newnavbar1">
         <div class="container">
          <!-- <a class="navbar-brand" href="index.html">
@@ -47,7 +49,9 @@
           </div>
         </div>
       </nav>
-    
+      <div id="bannerimage">
+       <img id = "bannerimage1" src="images/headerdevimage.png" width="100px" height="100px">
+      </div>
       <div id= "bannertext">
           
          <p id = "bigtext">Web design and Development</p>
@@ -69,12 +73,12 @@
 <div class="col-lg-4">
     <div  id="firstcolumn">
         <div id="content1">
-            <img src="images/development icon.png" height="80px" width="80px" style="margin-top: 15px;">
+            <img src="images/headerdevimage.png" height="80px" width="80px" style="margin-top: 15px;">
             <h2 class="distance">Development</h2>
             <p class = "content">We offer a comprehensive range of development services so that you can get a
               trusted ROI from one place. Regardless of the size & age of your business, our services
               can...</p> 
-              <button id="button1" href="#">Know More</button>
+              <a href="development.html" id="button1">Know More</a>
         </div>
     </div>
 </div> 
@@ -82,13 +86,13 @@
 <div class="col-lg-4">
     <div  id="secondcolumn">
         <div id="content2">
-          <img src="images/design icon.png" height="80px" width="80px" style="margin-top: 15px;">
+          <img src="images/headerdesignImage.png" height="80px" width="80px" style="margin-top: 15px;">
           <h2 class="distance">Design</h2> 
           <p class = "content">Our clients range from freelancers to big enterprises that seek our expertise. We approach them with 
             the idea to picture their online presence as another façade for their business...
 
           </p> 
-            <button id="button1" href="#">Know More</button>
+            <a id="button1" href="design.html">Know More</a>
         </div>
 
     </div>
@@ -97,11 +101,11 @@
 <div class="col-lg-4">
     <div  id="thirdcolumn">
         <div id="content3">
-          <img src="images/business icon.png" height="75px" width="75px" style="margin-top: 15px;">
+          <img src="images/headerbusiness.png" height="75px" width="75px" style="margin-top: 15px;">
           <h2 class="distance">Business Growth</h2>
            <p class = "content">We offer a range of services that could up the game in terms of customer identification, targeting, engagement and acquisition. 
              In today’s world of social media, the major battle is ...</p> 
-             <button id="button1" href="#">Know More</button>
+             <a id="button1" href="business.html">Know More</a>
         </div>
     </div>
 </div>  
@@ -345,9 +349,9 @@ echo $resultMessage;
 </div>
 <div id="footeritems">
 <ul>
- <li><a href="#">Terms of Service</a></li> 
- <li><a href="#">Disclaimer</a></li>
- <li><a href="#">Privacy Policy</a></li> 
+ <li><a href="terms.html">Terms of Service</a></li> 
+ <li><a href="disclaimer.html">Disclaimer</a></li>
+ <li><a href="privacy.html">Privacy Policy</a></li> 
 </ul>
 
 </div>
@@ -369,5 +373,57 @@ echo $resultMessage;
   <script src="js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
  <script src="javascript.js"></script>
+ <script>
+  window.onscroll = function(){
+  
+  var top =  window.scrollY;
+  console.log(top);
+  if(top >=110){
+  
+      header1.classList.add("active1");
+  }else{
+  
+      header1.classList.remove("active1");
+  }
+  
+  if(top >=150){
+  
+    $("#firstcolumn").addClass("animate__animated animate__fadeIn");
+    $("#secondcolumn").addClass("animate__animated animate__fadeIn");
+    $("#thirdcolumn").addClass("animate__animated animate__fadeIn");
+  }
+  /*if(top >=800){
+  
+    $("#left2").addClass("animate__animated animate__slideInLeft");
+    $("#right2").addClass("animate__animated animate__slideInRight");
+  }*/
+  if(top >=1350){
+  
+  $("#heading").addClass("animate__animated animate__slideInRight");
+  
+  }
+
+  if(top >=1500){
+  
+  $("#testimonials").addClass("animate__animated animate__slideInLeft");
+  
+  }
+  
+  
+  }
+  
+  $(document).ready(function(){
+  
+    
+    $(".ima1").addClass("animate__animated animate__shakeX");
+    $(".ima2").addClass("animate__animated animate__shakeY");
+    $(".ima3").addClass("animate__animated animate__shakeX");
+    $(".ima4").addClass("animate__animated animate__shakeY");
+    $(".ima5").addClass("animate__animated animate__shakeX")
+    $("#bannertext").addClass("animate__animated animate__bounce");
+    $("#bannerimage1").addClass("animate__animated animate__bounce");
+  });
+  
+  </script>
 </body>
 </html>
