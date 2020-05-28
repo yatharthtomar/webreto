@@ -2,6 +2,18 @@
 html {
     scroll-behavior: smooth;
   }
+
+  body h1,h2,h3,h4,h5,h6{
+
+    font-family: Signika Negative;
+  }
+  body p{
+
+    font-family: Signika Negative;
+  }
+  body ul li a{
+    font-family: Signika Negative;
+  }
 #header{
 
     height:auto;
@@ -247,6 +259,11 @@ p{
     border-radius: 20px;
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.2);
     text-align: center;
+    padding-bottom: 15px;
+}
+.alert-danger p{
+
+    color: black !important;
 }
 
 #secondcolumn{
@@ -266,6 +283,7 @@ p{
     border-radius: 20px;
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.2);
     text-align: center;
+    padding-bottom: 15px;
 
 }
 #thirdcolumn{
@@ -284,6 +302,7 @@ p{
     border-radius: 20px;
     box-shadow:10px 10px 10px 10px rgba(0,0,0,0.2);
     text-align: center;
+    padding-bottom: 15px;
 
 }
 
@@ -597,24 +616,25 @@ p{
     } 
     #firstcolumn{
 
-        height : 410px;
-        padding : 20px;
+        height : auto;
+        padding : 20px 20px 20px 20px;
         
          
     }
+   
     
     #secondcolumn{
     
-        height : 410px;
-        padding : 20px;
+        height : auto;
+        padding : 20px 20px 20px 20px;
        
        
     }
     
     #thirdcolumn{
     
-        height : 410px;
-        padding : 20px;
+        height : auto;
+        padding : 20px 20px 20px 20px;
     }
     .distance{
 
@@ -725,7 +745,7 @@ p{
 
     #mainheading1 {
 
-        height: 5rem;
+        height: auto;
         width :40%;
         margin-left: auto;
         margin-right: auto;
@@ -842,8 +862,8 @@ p{
    #image1text{
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-image: url("images/reactbub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -854,8 +874,8 @@ p{
    }
    #image2text{
     float: right;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-image: url("images/javascriptbub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -866,8 +886,8 @@ p{
    }
    #image3text{
    float: left;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-top: 2rem;
     background-image: url("images/bootstrapbub.png");
     background-repeat: no-repeat;
@@ -882,8 +902,8 @@ p{
      margin-top:1.5rem;  
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-image: url("images/jquerybub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -897,8 +917,8 @@ p{
 
     margin-top: 4rem;
    float: right;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-image: url("images/css3bub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -909,8 +929,8 @@ p{
    }
    #image6text{
     float: left;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-image: url("images/html5bub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -924,8 +944,8 @@ p{
    #image7text{
      margin-top:1.7rem;
     float:right;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-image: url("images/angularjs.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -936,8 +956,8 @@ p{
    }
    #image21text{
    float: right;
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     background-image: url("images/djangobub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -948,8 +968,8 @@ p{
    #image22text{
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
-    width: 50px;
+    height: 38px;
+    width: 38px;
     background-image: url("images/php.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -960,8 +980,8 @@ p{
    }
    #image23text{
     float: right;
-    height: 50px;
-    width: 50px;
+    height: 38px;
+    width: 38px;
     background-image: url("images/pythonbub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -972,8 +992,8 @@ p{
    #image24text{
     margin-left: auto;
     margin-right: auto;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-image: url("images/postgresbub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -985,8 +1005,8 @@ p{
    #image25text{
     margin-left: auto;
     margin-right: auto;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-image: url("images/mysqlbub.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -998,8 +1018,8 @@ p{
 
    #image31text{
     float: right;
-     height: 70px;
-     width: 70px;
+     height: 60px;
+     width: 60px;
      background-image: url("images/djangobub.png");
      background-repeat: no-repeat;
      background-size:100% 100%;
@@ -1010,8 +1030,8 @@ p{
     #image32text{
      margin-left: auto;
      margin-right: auto;
-     height: 70px;
-     width: 70px;
+     height: 60px;
+     width: 60px;
      background-image: url("images/reactbub.png");
      background-repeat: no-repeat;
      background-size:100% 100%;
@@ -1023,8 +1043,8 @@ p{
     #image33text{
       margin-left: auto;
       margin-right: auto;
-     height: 70px;
-     width: 70px;
+     height: 60px;
+     width: 60px;
      background-image: url("images/pythonbub.png");
      background-repeat: no-repeat;
      background-size:100% 100%;
@@ -1035,8 +1055,8 @@ p{
     #image34text{
      margin-left: auto;
      margin-right: auto;
-     height: 70px;
-     width: 70px;
+     height: 60px;
+     width: 60px;
      background-image: url("images/postgresbub.png");
      background-repeat: no-repeat;
      background-size:100% 100%;
@@ -1084,8 +1104,8 @@ p{
       #image51text{
         margin-left: auto;
         margin-right: auto;
-       height: 90px;
-       width: 90px;
+       height: 85px;
+       width: 85px;
        background-image: url("images/customcmsbub.png");
        background-repeat: no-repeat;
        background-size:100% 100%;
@@ -1096,8 +1116,8 @@ p{
       #image52text{
        margin-left: auto;
        margin-right: auto;
-       height: 90px;
-       width: 90px;
+       height: 85px;
+       width: 85px;
        background-image: url("images/wixbub.png");
        background-repeat: no-repeat;
        background-size:100% 100%;

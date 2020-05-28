@@ -1,3 +1,5 @@
+//window.location.reload(true);
+
 var header1 = document.querySelector(".navbar");
 
 

@@ -43,7 +43,7 @@
             </li>
             </li>
             <li class="nav-item active mr-3">
-           <a class="nav-link" href="about.html">Portfolio</a>
+           <a class="nav-link" href="portfolio.html">Portfolio</a>
            </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
       </div>
       <div id= "bannertext">
           
-         <p id = "bigtext">Web design and Development</p>
+         <p id = "bigtext">Design, Development and Business Growth</p>
          <p id = "smalltext">
             ‘Web’ represents the online element of a business and
             Reto' means the 'challenges' faced by the business.</p>
