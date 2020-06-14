@@ -162,44 +162,29 @@
         </li>
         <li data-target="#myCarousel" data-slide-to="3">
         </li>
-        <li data-target="#myCarousel" data-slide-to="4">
-        </li>
-        <li data-target="#myCarousel" data-slide-to="5">
-        </li>
 
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" style="padding-bottom:10px;">
            <!-- <img src="images/careerfin1.PNG" class="brandnew2">-->
            <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
              younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
               They understand what your business really needs in terms of a strategy.”</p>
+              <p><strong>Dr. Aditi from Navkia Eye and Dental hospital</strong></p>
 
         </div>
-        <div class="carousel-item">
-          <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
-            younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
-             They understand what your business really needs in terms of a strategy.”</p>
+        <div class="carousel-item"style="padding-bottom:10px;" > 
+          <p class="testicss">“I really recommend WebReto. WebReto is there whenever I needed help or advice. I know I can ask anything at any time . my website looks very professional. couldn't do it on my own. it's worth it."</p>
+          <p><strong>Rachel Dorchay from Perimenohealth</strong></p>
         </div>
-        <div class="carousel-item">
-          <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
-            younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
-             They understand what your business really needs in terms of a strategy.”</p>
+        <div class="carousel-item" style="padding-bottom:10px;">
+          <p class="testicss">“Very happy with the service! Highly recommended!!!”</p>
+          <p><strong>Dani from danistrauss.com</strong></p>
         </div>
-        <div class="carousel-item">
-          <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
-            younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
-             They understand what your business really needs in terms of a strategy.”</p>
-        </div>
-        <div class="carousel-item">
-          <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
-            younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
-             They understand what your business really needs in terms of a strategy.”</p>
-        </div>
-        <div class="carousel-item">
-          <p class="testicss">“Being a healthcare provider, we wanted to create our online presence and increase awareness among millennials and 
-            younger generations about our facility in our city. After the first discovery call with Business strategist at WebReto, we were recommended to start with a website and build a presence on social media platforms. We are extremely satisfied with the quality of the website delivered in a very much affordable budget. Due to our busy schedule, we decided to hire their social media team to manage our accounts as well.
-             They understand what your business really needs in terms of a strategy.”</p>
+        <div class="carousel-item"  style="padding-bottom:10px;">
+          <p class="testicss">“I turned my passion for cars into creating one of a kind services for car owners. As I was doing everything alone, I reached out to WebReto to help me fine tune my business and social media strategy. They successfully delivered just what I was looking for. I have successfully launched my business. Due to some urgent launch dates, my website was up and running within 3 days. I allowed their team to manage my social media presence. 
+            This gave me a lot of time on my hands to focus on other priorities.”</p>
+            <p><strong>Ankur from CarMonk</strong></p>
         </div>
         
     </div>

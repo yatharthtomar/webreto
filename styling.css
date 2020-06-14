@@ -1,6 +1,7 @@
 /* main header*/
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden ;
   }
 
   body h1,h2,h3,h4,h5,h6{
@@ -13,6 +14,11 @@ html {
   }
   body ul li a{
     font-family: Signika Negative;
+  }
+
+  body{
+
+    overflow-x: hidden;
   }
 #header{
 
